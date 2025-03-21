@@ -1,0 +1,124 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "ai_definition",
+      "patterns": [
+        "What is AI?",
+        "Can you explain artificial intelligence?",
+        "Tell me about AI!"
+      ],
+      "responses": [
+        "AI, or Artificial Intelligence, is like teaching a computer to think—except it never asks for a coffee break!",
+        "Artificial Intelligence is when machines learn to do smart things, like recognizing cats in pictures or suggesting videos you never knew you needed!",
+        "AI is the reason your phone knows what you want to type before you do… sometimes correctly!"
+      ]
+    },
+    {
+      "tag": "ml_definition",
+      "patterns": [
+        "What is ML?",
+        "Can you explain machine learning?",
+        "Tell me about ML!"
+      ],
+      "responses": [
+        "Machine Learning (ML) is when computers learn patterns from data—kind of like how you learn to recognize bad jokes after hearing a few!",
+        "ML is like teaching a computer to spot trends without explicitly telling it the rules… kind of like how you learned to avoid spoilers online!",
+        "Machine Learning is why your favorite app knows what meme you'll laugh at next. Its basically just a really smart guesser!"
+      ]
+    },
+    {
+      "tag": "other",
+      "patterns": [
+        "",
+        "  ",
+        "/",
+        "."
+      ],
+      "responses": [
+        "Hmm… looks like you didn't say anything! Try typing something.",
+        "I didn't catch that. Mind saying it again?",
+        "Silence is golden, but I'm here to chat! Say something. 😊"
+      ]
+    }
+  ]
+}
