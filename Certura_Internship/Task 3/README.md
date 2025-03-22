@@ -10,16 +10,16 @@ A tool designed to simplify text analysis and document summarization using Natur
   
 ## Usage
 
-1. **Text Summarization**: Simply upload your document or paste the text content into the tool. Reportionary will then generate a summary for you.
+1. **Text Summarization**: Simply upload your document or paste the text content into the tool. The reportionary will then generate a summary for you.
 
-2. **Sentiment Analysis**: After uploading your document, Reportionary will analyze the sentiment expressed in the text and provide insights.
+2. **Sentiment Analysis**: After uploading your document, the Reportionary will analyze the sentiment expressed in the text and provide insights.
 
 3. **Document Management**: Use the document management feature to upload, organize, and manage your documents for analysis.
 
 4. **Word Cloud Generation**: Explore the word cloud feature to visually identify the most common words in your text.
 
 
-**This requires the following modules :**
+**This requires the following modules:**
 
 Spacy
 NLTK
@@ -36,18 +36,6 @@ Install modules by<br>
 
 To run the application <br>
 ```python app.py```
-
-## Web Page
-![Screenshot (5)](https://github.com/user-attachments/assets/4eb869f3-c26b-48b2-82fb-ece5bb8debff)
-
-## Text Summarization 
-![Screenshot (1)](https://github.com/user-attachments/assets/9c6424b0-5eb6-4977-bf38-fca1691587f0)
-
-## Sentiment Analysis
-![Screenshot (14)](https://github.com/user-attachments/assets/ba7bfd15-a683-494f-9aa6-fa3207b280c1)
-
-## Word Cloud
-![Screenshot (13)](https://github.com/user-attachments/assets/8ac1b2c7-c4dc-436f-b54e-da37aa19b3d5)
 
 
 
